@@ -14,7 +14,7 @@ import numpy as np
 
 # Conditionally import Word Vector libraries as they aren't installed by default
 try:
-    import fasttext
+    import fasttext-wheel
     from pymagnitude import converter, Magnitude
 
     WORDS = True
