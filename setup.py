@@ -53,6 +53,10 @@ extras["graph"] = ["grand-cypher>=0.6.0", "grand-graph>=0.5.0", "networkx>=2.6.3
 
 extras["model"] = ["onnx>=1.11.0", "onnxruntime>=1.11.0"]
 
+extras["pipeline"] = [
+    "tika>=1.24",  # Specify the version or use the latest
+    "beautifulsoup4>=4.9.3"]
+
 extras["pipeline-audio"] = ["onnx>=1.11.0", "onnxruntime>=1.11.0", "soundfile>=0.10.3.post1", "scipy>=1.4.1", "ttstokenizer>=1.0.0"]
 
 extras["pipeline-data"] = ["beautifulsoup4>=4.9.3", "nltk>=3.5", "pandas>=1.1.0", "tika>=1.24"]
